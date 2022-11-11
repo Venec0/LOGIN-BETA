@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/alumnos-duoc-960x600.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 5vh;
+}
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #007BFF;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-box .avatar {
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    top: 50px;
+    left: calc(50% -50px);
+}
